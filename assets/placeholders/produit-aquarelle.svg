@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img">
+  <defs>
+    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .08"/></feComponentTransfer></filter>
+    <linearGradient id="warm" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#FFF9F1"/><stop offset="1" stop-color="#E6D3C0"/></linearGradient>
+    <linearGradient id="terra" x1="0" x2="1"><stop stop-color="#B86E4B"/><stop offset="1" stop-color="#C9815C"/></linearGradient>
+  </defs>
+  <rect width="1200" height="820" fill="url(#warm)"/>
+  <rect width="1200" height="820" filter="url(#paper)" opacity=".75"/>
+  
+  <rect x="250" y="190" width="700" height="390" rx="36" fill="#FFF9F1" stroke="#E6D3C0" stroke-width="4"/>
+  <g transform="translate(330 270)"><rect width="540" height="210" rx="28" fill="#F8F1E8" stroke="#8F8173" stroke-width="3"/>
+  <g transform="translate(38 42)"><circle cx="0" cy="0" r="34" fill="#B86E4B"/><circle cx="78" cy="0" r="34" fill="#C9815C"/><circle cx="156" cy="0" r="34" fill="#7E8C69"/><circle cx="234" cy="0" r="34" fill="#59634B"/><circle cx="312" cy="0" r="34" fill="#E6D3C0"/><circle cx="390" cy="0" r="34" fill="#8F8173"/></g>
+  <path d="M58 145h420" stroke="#2D2926" stroke-width="8" opacity=".25" stroke-linecap="round"/></g><text x="600" y="700" text-anchor="middle" font-family="Georgia,serif" font-size="50" fill="#2D2926">Set aquarelle débutant</text>
+
+</svg>
