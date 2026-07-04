@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img">
+  <defs>
+    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .08"/></feComponentTransfer></filter>
+    <linearGradient id="warm" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#FFF9F1"/><stop offset="1" stop-color="#E6D3C0"/></linearGradient>
+    <linearGradient id="terra" x1="0" x2="1"><stop stop-color="#B86E4B"/><stop offset="1" stop-color="#C9815C"/></linearGradient>
+  </defs>
+  <rect width="1200" height="820" fill="url(#warm)"/>
+  <rect width="1200" height="820" filter="url(#paper)" opacity=".75"/>
+  
+  <rect x="155" y="180" width="255" height="350" rx="28" fill="#FFF9F1" stroke="#E6D3C0" stroke-width="4"/><rect x="472" y="145" width="255" height="385" rx="28" fill="#F8F1E8" stroke="#E6D3C0" stroke-width="4"/><rect x="790" y="205" width="255" height="325" rx="28" fill="#FFF9F1" stroke="#E6D3C0" stroke-width="4"/>
+  <path d="M210 420c62-110 102-112 150-38" fill="none" stroke="#B86E4B" stroke-width="10"/><circle cx="600" cy="325" r="70" fill="#7E8C69" opacity=".45"/><path d="M835 410c66-80 116-96 160-42" fill="none" stroke="#59634B" stroke-width="9"/>
+  <text x="600" y="690" text-anchor="middle" font-family="Georgia,serif" font-size="52" fill="#2D2926">Créateurs locaux</text>
+
+</svg>
