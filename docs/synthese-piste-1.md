@@ -45,3 +45,4 @@ Style éditorial, doux, artisanal et légèrement bohème : fonds crème et papi
 
 ## Limites des sources
 Les images annexes ont été fournies dans la conversation, mais pas comme fichiers directement présents dans le dépôt. Le prototype crée donc des SVG de marque et des visuels représentatifs locaux dans `/assets/brand/` et `/assets/placeholders/` en attendant les fichiers sources définitifs.
+Les images annexes ont été fournies dans la conversation, mais pas comme fichiers directement présents dans le dépôt. Le prototype crée donc des SVG de marque et des placeholders locaux dans `/assets/brand/` et `/assets/placeholders/` en attendant les fichiers sources définitifs.
