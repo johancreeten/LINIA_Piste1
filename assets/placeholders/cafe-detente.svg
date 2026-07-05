@@ -63,3 +63,18 @@
 
   <text x="600" y="735" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#2D2926">Coin café et détente</text>
 </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img">
+  <defs>
+    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .08"/></feComponentTransfer></filter>
+    <linearGradient id="warm" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#FFF9F1"/><stop offset="1" stop-color="#E6D3C0"/></linearGradient>
+    <linearGradient id="terra" x1="0" x2="1"><stop stop-color="#B86E4B"/><stop offset="1" stop-color="#C9815C"/></linearGradient>
+  </defs>
+  <rect width="1200" height="820" fill="url(#warm)"/>
+  <rect width="1200" height="820" filter="url(#paper)" opacity=".75"/>
+  
+  <circle cx="410" cy="345" r="145" fill="#E6D3C0"/><circle cx="410" cy="345" r="98" fill="#FFF9F1"/><circle cx="410" cy="345" r="66" fill="#B86E4B" opacity=".58"/><path d="M510 320c86-22 106 82 18 94" fill="none" stroke="#E6D3C0" stroke-width="28" stroke-linecap="round"/>
+  <rect x="620" y="235" width="300" height="360" rx="22" fill="#FFF9F1" stroke="#8F8173" stroke-width="3"/><path d="M670 315h200M670 370h160M670 425h190" stroke="#7E8C69" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+  <path d="M232 590c95-126 176-156 246-88" fill="none" stroke="#59634B" stroke-width="9" opacity=".55"/><path d="M930 190c80-90 142-105 202-134-18 74-78 132-202 134z" fill="#7E8C69" opacity=".55"/><path d="M940 196c72-48 128-91 194-140" fill="none" stroke="#59634B" stroke-width="6" opacity=".45"/>
+  <text x="600" y="720" text-anchor="middle" font-family="Georgia,serif" font-size="52" fill="#2D2926">Coin café & détente</text>
+
+</svg>

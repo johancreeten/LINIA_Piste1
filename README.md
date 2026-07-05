@@ -12,6 +12,7 @@ La piste 1 crée l’attachement autour d’un lieu humain : **acheter, se poser
 - `assets/brand/linia-logo.svg` : logo local de présentation.
 - `assets/brand/linia-hero.svg` : visuel d’ambiance local de présentation.
 - `assets/placeholders/` : visuels SVG représentatifs pour la boutique, les ateliers, le café, les créateurs locaux, Jennifer et les produits.
+- `assets/placeholders/` : dossier prévu pour les futures images.
 - `docs/synthese-piste-1.md` : synthèse stratégique avant conception.
 
 ## Ouvrir en local
@@ -64,3 +65,4 @@ Puis ouvrir : `http://localhost:8000`.
 
 ## Sources et limites
 Les annexes textuelles et visuelles ont été exploitées depuis le brief et les images fournies dans la conversation. Les fichiers photos d’origine n’étant pas présents dans le dépôt, des visuels SVG représentatifs locaux ont été créés pour éviter toute dépendance externe ; ils devront être remplacés par les vraies photos de Linia dès qu’elles seront disponibles.
+Les annexes textuelles et visuelles ont été exploitées depuis le brief et les images fournies dans la conversation. Les fichiers images d’origine n’étant pas présents dans le dépôt, des SVG de présentation et des placeholders locaux ont été créés pour éviter toute dépendance externe.
