@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
-  <title id="title">Coin café et détente Linia</title>
-  <desc id="desc">Illustration chaleureuse d'un coin café créatif avec tasse, carnet, livre, feuillage et matières naturelles.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="coffee-title coffee-desc">
+  <title id="coffee-title">Coin café et détente Linia</title>
+  <desc id="coffee-desc">Illustration chaleureuse d'un coin café créatif avec tasse, carnet, livre, feuillage et matières naturelles.</desc>
+
   <defs>
     <filter id="paper-texture" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="2" stitchTiles="stitch"/>
@@ -9,15 +10,18 @@
         <feFuncA type="table" tableValues="0 .075"/>
       </feComponentTransfer>
     </filter>
+
     <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
       <stop stop-color="#FFF9F1"/>
       <stop offset="0.58" stop-color="#F8F1E8"/>
       <stop offset="1" stop-color="#E6D3C0"/>
     </linearGradient>
+
     <linearGradient id="coffee" x1="0" x2="1" y1="0" y2="1">
       <stop stop-color="#C9815C"/>
       <stop offset="1" stop-color="#8F5F43"/>
     </linearGradient>
+
     <linearGradient id="book" x1="0" x2="1" y1="0" y2="0">
       <stop stop-color="#FFF9F1"/>
       <stop offset="1" stop-color="#F8F1E8"/>
@@ -28,30 +32,77 @@
   <rect width="1200" height="820" filter="url(#paper-texture)"/>
 
   <ellipse cx="605" cy="690" rx="410" ry="42" fill="#2D2926" opacity="0.08"/>
-  <path d="M95 154c176-82 327-80 512-20 164 53 303 44 498-42v118c-181 77-344 83-508 31-178-56-318-52-502 35z" fill="#C9815C" opacity="0.16"/>
+
+  <path d="M95 154c176-82 327-80 512-20 164 53 303 44 498-42v118c-181 77-344 83-508 31-178-56-318-52-502 35z"
+        fill="#C9815C"
+        opacity="0.16"/>
 
   <g aria-label="Tasse de café" transform="translate(215 245)">
     <circle cx="190" cy="190" r="150" fill="#E6D3C0"/>
     <circle cx="190" cy="190" r="108" fill="#FFF9F1" stroke="#E6D3C0" stroke-width="8"/>
     <circle cx="190" cy="190" r="72" fill="url(#coffee)" opacity="0.92"/>
-    <path d="M294 160c94-28 120 96 24 118" fill="none" stroke="#FFF9F1" stroke-width="34" stroke-linecap="round"/>
-    <path d="M295 160c94-28 120 96 24 118" fill="none" stroke="#E6D3C0" stroke-width="18" stroke-linecap="round"/>
-    <path d="M150 165c28-24 74-24 102 0" fill="none" stroke="#FFF9F1" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+
+    <path d="M294 160c94-28 120 96 24 118"
+          fill="none"
+          stroke="#FFF9F1"
+          stroke-width="34"
+          stroke-linecap="round"/>
+
+    <path d="M295 160c94-28 120 96 24 118"
+          fill="none"
+          stroke="#E6D3C0"
+          stroke-width="18"
+          stroke-linecap="round"/>
+
+    <path d="M150 165c28-24 74-24 102 0"
+          fill="none"
+          stroke="#FFF9F1"
+          stroke-width="8"
+          stroke-linecap="round"
+          opacity="0.45"/>
   </g>
 
   <g aria-label="Livre et carnet créatif" transform="translate(610 205)">
     <rect x="0" y="36" width="330" height="420" rx="28" fill="#E6D3C0" opacity="0.7"/>
     <rect x="-24" y="0" width="330" height="420" rx="28" fill="url(#book)" stroke="#8F8173" stroke-width="4"/>
-    <path d="M142 16v388" stroke="#E6D3C0" stroke-width="6"/>
-    <path d="M42 96h72M42 150h84M42 204h62M182 104h86M182 158h62M182 212h92" stroke="#7E8C69" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
-    <path d="M78 318c38-58 82-72 136-39 34 21 56 11 76-16" fill="none" stroke="#B86E4B" stroke-width="7" stroke-linecap="round"/>
+
+    <path d="M142 16v388"
+          stroke="#E6D3C0"
+          stroke-width="6"/>
+
+    <path d="M42 96h72M42 150h84M42 204h62M182 104h86M182 158h62M182 212h92"
+          stroke="#7E8C69"
+          stroke-width="8"
+          stroke-linecap="round"
+          opacity="0.7"/>
+
+    <path d="M78 318c38-58 82-72 136-39 34 21 56 11 76-16"
+          fill="none"
+          stroke="#B86E4B"
+          stroke-width="7"
+          stroke-linecap="round"/>
   </g>
 
   <g aria-label="Feuillage naturel" fill="none" stroke-linecap="round">
-    <path d="M952 610c-50-150-7-282 105-390" stroke="#59634B" stroke-width="10" opacity="0.62"/>
-    <path d="M984 396c78-42 122-25 163-53" fill="#7E8C69" opacity="0.65" stroke="none"/>
-    <path d="M952 470c76 5 110 34 154 28" fill="#7E8C69" opacity="0.58" stroke="none"/>
-    <path d="M913 545c66-18 105 0 141-14" fill="#59634B" opacity="0.36" stroke="none"/>
+    <path d="M952 610c-50-150-7-282 105-390"
+          stroke="#59634B"
+          stroke-width="10"
+          opacity="0.62"/>
+
+    <path d="M984 396c78-42 122-25 163-53"
+          fill="#7E8C69"
+          opacity="0.65"
+          stroke="none"/>
+
+    <path d="M952 470c76 5 110 34 154 28"
+          fill="#7E8C69"
+          opacity="0.58"
+          stroke="none"/>
+
+    <path d="M913 545c66-18 105 0 141-14"
+          fill="#59634B"
+          opacity="0.36"
+          stroke="none"/>
   </g>
 
   <g aria-label="Crayon posé" transform="translate(258 610) rotate(-10)">
@@ -61,20 +112,12 @@
     <path d="M388 11l18 3-18 3z" fill="#2D2926"/>
   </g>
 
-  <text x="600" y="735" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#2D2926">Coin café et détente</text>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img">
-  <defs>
-    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .08"/></feComponentTransfer></filter>
-    <linearGradient id="warm" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#FFF9F1"/><stop offset="1" stop-color="#E6D3C0"/></linearGradient>
-    <linearGradient id="terra" x1="0" x2="1"><stop stop-color="#B86E4B"/><stop offset="1" stop-color="#C9815C"/></linearGradient>
-  </defs>
-  <rect width="1200" height="820" fill="url(#warm)"/>
-  <rect width="1200" height="820" filter="url(#paper)" opacity=".75"/>
-  
-  <circle cx="410" cy="345" r="145" fill="#E6D3C0"/><circle cx="410" cy="345" r="98" fill="#FFF9F1"/><circle cx="410" cy="345" r="66" fill="#B86E4B" opacity=".58"/><path d="M510 320c86-22 106 82 18 94" fill="none" stroke="#E6D3C0" stroke-width="28" stroke-linecap="round"/>
-  <rect x="620" y="235" width="300" height="360" rx="22" fill="#FFF9F1" stroke="#8F8173" stroke-width="3"/><path d="M670 315h200M670 370h160M670 425h190" stroke="#7E8C69" stroke-width="8" stroke-linecap="round" opacity=".7"/>
-  <path d="M232 590c95-126 176-156 246-88" fill="none" stroke="#59634B" stroke-width="9" opacity=".55"/><path d="M930 190c80-90 142-105 202-134-18 74-78 132-202 134z" fill="#7E8C69" opacity=".55"/><path d="M940 196c72-48 128-91 194-140" fill="none" stroke="#59634B" stroke-width="6" opacity=".45"/>
-  <text x="600" y="720" text-anchor="middle" font-family="Georgia,serif" font-size="52" fill="#2D2926">Coin café & détente</text>
-
+  <text x="600"
+        y="735"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="52"
+        fill="#2D2926">
+    Coin café et détente
+  </text>
 </svg>
