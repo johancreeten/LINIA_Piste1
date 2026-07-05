@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img">
+  <defs>
+    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .08"/></feComponentTransfer></filter>
+    <linearGradient id="warm" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#FFF9F1"/><stop offset="1" stop-color="#E6D3C0"/></linearGradient>
+    <linearGradient id="terra" x1="0" x2="1"><stop stop-color="#B86E4B"/><stop offset="1" stop-color="#C9815C"/></linearGradient>
+  </defs>
+  <rect width="1200" height="820" fill="url(#warm)"/>
+  <rect width="1200" height="820" filter="url(#paper)" opacity=".75"/>
+  
+  <rect x="390" y="140" width="420" height="520" rx="28" fill="#FFF9F1" stroke="#8F8173" stroke-width="4"/><path d="M455 140v520" stroke="#E6D3C0" stroke-width="8"/><g stroke="#B86E4B" stroke-width="6" opacity=".55"><path d="M510 250h220M510 315h180M510 380h230"/></g><path d="M565 505c84-90 142-84 190-16" fill="none" stroke="#7E8C69" stroke-width="8"/>
+  <text x="600" y="735" text-anchor="middle" font-family="Georgia,serif" font-size="50" fill="#2D2926">Carnet papier coton</text>
+
+</svg>
